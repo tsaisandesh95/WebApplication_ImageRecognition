@@ -1,0 +1,5 @@
+WebApplicaiton Image Recognition 
+
+Run app.py from commadprompt
+open link given or type http://127.0.0.1:5000/ in any browser
+upload a image(cat/dog) and it will redirect to another page with image uploaded and classifies whether it is a dog or cat image
