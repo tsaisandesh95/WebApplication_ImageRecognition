@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title> Image Recognition App</title>
+  <head>
+    <link href="../static/main.css" rel="stylesheet">
+  </head>
+    <body>
+      <div class="container">
+        <h1>Welcome to Image Recognition App</h1>
+		<form action ="{{url_for('result')}}" method ="POST" enctype = "multipart/form-data">
+			<input type="file" name="file" accept ="image/*" />  <!-- accepts any type of image files only -->
+			<input type ="submit" value ="Upload" />      
+		</form>
+      </div>
+    </body>
+</html>
